@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Header Section -->
+<header>
+  <div class="logo">
+      <img src="Logo.png" alt="Logo" id="logo">
+  </div>
+  <div class="tagline">
+      <p>Resumes That Get You Hired</p>
+  </div>
+</header>
+<!-- Resume Section -->
+    <div class="resume1">   
+      <div class="resume2">
+        <div >rightside </div>
+          <div class="color-palette1">
+            <div class="color-swatch1" data-color="#e0e0e0"></div>
+            <div class="color-swatch1" data-color="#333333"></div>
+            <div class="color-swatch1" data-color="#bfa69c"></div>
+            <div class="color-swatch1" data-color="#2f4b7c"></div>
+            <div class="color-swatch1" data-color="#5a89d6"></div>
+            <div class="color-swatch1" data-color="#00a8c6"></div>
+            <div class="color-swatch1" data-color="#349177"></div>
+            <div class="color-swatch1" data-color="#f2a65a"></div>
+            <div class="color-swatch1" data-color="#d1515a"></div>
+            <div class="color-swatch1" data-color="#ff6347"></div> 
+            <div class="color-swatch1" data-color="#ffd700"></div> 
+            <div class="color-swatch1" data-color="#008000"></div> 
+            <div class="color-swatch1" data-color="#800080"></div> 
+            <div class="color-swatch1" data-color="#ff1493"></div> 
+            <div class="color-swatch1" data-color="#8a2be2"></div> 
+            <div class="color-swatch1" data-color="#a52a2a"></div> 
+            <div class="color-swatch1" data-color="#add8e6"></div> 
+            <div class="color-swatch1" data-color="#90ee90"></div> 
+          </div>
+          <div >leftside </div>
+          <div class="color-palette2">
+            <div class="color-swatch2" data-color="#e0e0e0"></div>
+            <div class="color-swatch2" data-color="#333333"></div>
+            <div class="color-swatch2" data-color="#bfa69c"></div>
+            <div class="color-swatch2" data-color="#2f4b7c"></div>
+            <div class="color-swatch2" data-color="#5a89d6"></div>
+            <div class="color-swatch2" data-color="#00a8c6"></div>
+            <div class="color-swatch2" data-color="#349177"></div>
+            <div class="color-swatch2" data-color="#f2a65a"></div>
+            <div class="color-swatch2" data-color="#d1515a"></div>
+            <div class="color-swatch2" data-color="#ff6347"></div> 
+            <div class="color-swatch2" data-color="#ffd700"></div> 
+            <div class="color-swatch2" data-color="#008000"></div> 
+            <div class="color-swatch2" data-color="#800080"></div> 
+            <div class="color-swatch2" data-color="#ff1493"></div> 
+            <div class="color-swatch2" data-color="#8a2be2"></div> 
+            <div class="color-swatch2" data-color="#a52a2a"></div> 
+            <div class="color-swatch2" data-color="#add8e6"></div> 
+            <div class="color-swatch2" data-color="#90ee90"></div> 
+          </div>
+          <div>
+          <button id="printResumeButton" class="action-button">
+            🖨️ Print Resume
+          </button>
+          <button id="regenerateButton" class="action-button">
+            🔄 Regenerate</button>
+          </div>
+      </div>
+      </div>
+      <div class="display1">
+      <div class="display2">
+            <div id="resume" class="resume">
+          <div class="left-column"> 
+            
+              <h1>About Me</h1><div class="about">
+              <p class="name"><input type="text" placeholder=" Name" id="nameInput"></p>
+              <p class="title"><input type="text" placeholder="Your Job Title" id="titleInput"></p>
+            
+              <textarea placeholder="Write a brief about yourself..." id="aboutInput"></textarea>
+                
+              </div>
+          
+              <div class="contact">
+                <h1>Contact</h1>
+                <p><strong>Phone:</strong> <input type="tel" placeholder="Your Phone Number" id="phoneInput"></p>
+                <p><strong>Email:</strong> <input type="email" placeholder="Your Email" id="emailInput"></p>
+                <p><strong>Address:</strong> <input type="text" placeholder="Your Address" id="addressInput"></p>
+              </div>
+          
+            
+            </div> 
+          
+            <div class="right-column">
+              
+                <div class="skills">
+                <h1>Skills</h1>
+                <div id="skills-container">
+                  <div class="skill-item">
+                    <input type="text" placeholder="Skill" class="skillInput">
+                  </div>
+                </div>
+              </div>
+          
+              <div class="languages">
+                <h1>Languages</h1>
+                <div id="languages-container">
+                  <div class="language-item">
+                    <input type="text" placeholder="Language" class="languageInput">
+                </div>
+                </div>
+            </div>
+
+            <div class="education">
+                <h1>Education</h1>
+                <div id="education-container">
+                <div class="edu-item">
+                    <input type="text" placeholder="University Name" class="eduName">
+                    <input type="text" placeholder="Degree" class="eduDegree">
+                    
+                  </div>
+                </div>
+              </div>
+          
+              <div class="experience">
+                <h1>Experience</h1>
+                <div id="experience-container">
+                  <div class="exp-item">
+                    <input type="text" placeholder="Company" class="expCompany">
+                    <textarea placeholder="Description" class="expDesc"></textarea>
+                  </div>
+                </div>
+              </div>
+          
+          
+          </div>
+          </div>          
+      
+    
+        <script src="script.ts"></script> 
+        <script src="script.js"></script>     
+        
+</body>
+</html>

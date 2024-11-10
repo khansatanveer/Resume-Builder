@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color:#393c3c  ;
+  color:  rgb(34, 32, 80);
+}
+
+.logo img {
+  width: 50px; 
+  height: auto;
+}
+
+.tagline p {
+  font-size: 20px;
+  margin: 0.1;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+
+.resume1{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+
+.resume2{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #b6f2e5;
+padding: 20px;
+flex-direction: column;
+}
+
+
+.resume {
+  display: flex;
+  max-width: 900px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  }
+
+  .display1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    }
+    
+.display2{ display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b6f2e5;
+  padding: 20px;
+  flex-direction: column;
+} 
+
+.left-column, .right-column {
+padding: 20px;
+}
+
+.left-column {
+background-color: #333;
+color: white;
+width: 35%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+input, textarea {
+background: transparent;
+border: none;
+border-bottom: 3px solid #ccc;
+width: 100%;
+color: inherit;
+padding: 6px;
+margin: 10px 0;
+outline: none;
+}
+
+h1 {
+text-align: center;
+margin-bottom: 10px;
+font-size: large;
+}
+
+.right-column {
+width: 65%;
+}
+
+.color-palette1,
+.color-palette2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; 
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.color-swatch1,
+.color-swatch2 {
+  width: 35px; 
+  height: 35px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.color-swatch1:hover,
+.color-swatch2:hover {
+  transform: scale(1.1);
+}
+.color-swatch1:nth-child(1) { background-color: #e0e0e0; }
+.color-swatch1:nth-child(2) { background-color: #333333; }
+.color-swatch1:nth-child(3) { background-color: #bfa69c; }
+.color-swatch1:nth-child(4) { background-color: #2f4b7c; }
+.color-swatch1:nth-child(5) { background-color: #5a89d6; }
+.color-swatch1:nth-child(6) { background-color: #00a8c6; }
+.color-swatch1:nth-child(7) { background-color: #349177; }
+.color-swatch1:nth-child(8) { background-color: #f2a65a; }
+.color-swatch1:nth-child(9) { background-color: #d1515a; }
+.color-swatch1:nth-child(10) { background-color:#ff6347; }
+.color-swatch1:nth-child(11) { background-color:#ffd700; }
+.color-swatch1:nth-child(12) { background-color:#008000; }
+.color-swatch1:nth-child(13) { background-color:#800080; }
+.color-swatch1:nth-child(14) { background-color:#ff1493; }
+.color-swatch1:nth-child(15) { background-color:#8a2be2; }
+.color-swatch1:nth-child(16) { background-color:#a52a2a; }
+.color-swatch1:nth-child(17) { background-color:#add8e6; }
+.color-swatch1:nth-child(18) { background-color:#90ee90; }
+.color-swatch2:nth-child(1) { background-color: #e0e0e0; }
+.color-swatch2:nth-child(2) { background-color: #333333; }
+.color-swatch2:nth-child(3) { background-color: #bfa69c; }
+.color-swatch2:nth-child(4) { background-color: #2f4b7c; }
+.color-swatch2:nth-child(5) { background-color: #5a89d6; }
+.color-swatch2:nth-child(6) { background-color: #00a8c6; }
+.color-swatch2:nth-child(7) { background-color: #349177; }
+.color-swatch2:nth-child(8) { background-color: #f2a65a; }
+.color-swatch2:nth-child(9) { background-color: #d1515a; }
+.color-swatch2:nth-child(10) { background-color:#ff6347; }
+.color-swatch2:nth-child(11) { background-color:#ffd700; }
+.color-swatch2:nth-child(12) { background-color:#008000; }
+.color-swatch2:nth-child(13) { background-color:#800080; }
+.color-swatch2:nth-child(14) { background-color:#ff1493; }
+.color-swatch2:nth-child(15) { background-color:#8a2be2; }
+.color-swatch2:nth-child(16) { background-color:#a52a2a; }
+.color-swatch2:nth-child(17) { background-color:#add8e6; }
+.color-swatch2:nth-child(18) { background-color:#90ee90; }
+
+
+
+
+.print-button,
+.action-button {
+  padding: 8px 16px; 
+  font-size: 14px; 
+  color: #fff;
+  background-color: #0ee9ab;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px; 
+  width: fit-content; 
+}
+
+.print-button:hover,
+.action-button:hover {
+  background-color: #0ac495; 
+}
+
+
+@media (min-width: 1024px) {
+  .color-palette1,
+  .color-palette2 {
+    gap: 10px; 
+  }
+
+  .print-button,
+  .action-button {
+    font-size: 18px; 
+  }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  header {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .logo img {
+      width: 40px; 
+  }
+
+  .tagline p {
+      font-size: 18px;
+  }
+
+}
+
+  @media (max-width: 768px) {
+.resume1 {
+  width: 100%;
+}
+.resume {
+  flex-direction:row;
+}
+.left-column, .right-column {
+  width: 100%;
+}
+}
+
+@media (min-width: 768px) {
+  .color-swatch1,
+  .color-swatch2 {
+    width: 40px; 
+    height: 40px;
+  }
+  
+  .print-button,
+  .action-button {
+    padding: 10px 20px; 
+    font-size: 16px;
+  }
+}
+
+
+@media print {
+  .resume1 {
+    display: none;
+  }
+  
+  .resume {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
